@@ -1,0 +1,24 @@
+{
+  "name": "test-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniordev4life/test-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniordev4life/test-release/issues"
+  },
+  "homepage": "https://github.com/juniordev4life/test-release#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
+}
