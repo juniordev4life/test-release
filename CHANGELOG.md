@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/juniordev4life/test-release/compare/v1.2.0...v1.2.1) (2022-02-19)
+
+
+### Bug Fixes
+
+* **docs:** fix history.md ([78da4ad](https://github.com/juniordev4life/test-release/commit/78da4ad9257eb578067d54d531f9e58239d39734))
+
 ## [1.2.0](https://github.com/juniordev4life/test-release/compare/v1.1.0...v1.2.0) (2022-02-19)
 
 
