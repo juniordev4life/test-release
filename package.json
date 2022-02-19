@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,6 @@
   "homepage": "https://github.com/juniordev4life/test-release#readme",
   "dependencies": {},
   "devDependencies": {
-    "auto-changelog": "^2.4.0",
     "standard-version": "^9.3.2"
-  },
-  "auto-changelog": {
-    "output": "HISTORY.md",
-    "template": "keepachangelog",
-    "unreleased": true,
-    "commitLimit": false
   }
 }
