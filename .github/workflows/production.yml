@@ -31,7 +31,10 @@ jobs:
   release:
     name: "Release - GitHub"
     runs-on: "ubuntu-latest"
+    need: prepare-release
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
       - name: get-npm-version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
