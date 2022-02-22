@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version && git push --follow-tags origin main"
+    "update-version": "standard-version && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",

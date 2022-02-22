@@ -1,0 +1,32 @@
+name: "New Version"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+# Automatically create a new version and update Changelog.md by closing a pull request to main
+jobs:
+  update-version:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    name: "Update Version"
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: npm update-version
+  release:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    name: "Release - GitHub"
+    runs-on: "ubuntu-latest"
+    needs: "update-version"
+    steps:
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
