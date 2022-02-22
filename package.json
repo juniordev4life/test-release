@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz",
     "release": "standard-version && git push --follow-tags origin main"
   },
   "repository": {
@@ -20,6 +18,8 @@
   "homepage": "https://github.com/juniordev4life/test-release#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "standard-version": "^9.3.2"
   }
 }
