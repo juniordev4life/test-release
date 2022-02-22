@@ -31,7 +31,7 @@ jobs:
   release:
     name: "Release - GitHub"
     runs-on: "ubuntu-latest"
-    need: prepare-release
+    needs: prepare-release
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
