@@ -2,10 +2,8 @@ name: "Release"
 
 on:
   push:
-    branches:
-      - main
     tags:
-      - "v*.*.*"
+      - "v*"
 
 # Automatically create a new version and update Changelog.md by closing a pull request to main
 jobs:
