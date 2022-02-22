@@ -1,54 +1,39 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### 1.2.16 (2022-02-22)
-
-### [1.2.15](https://github.com/juniordev4life/test-release/compare/v1.2.14...v1.2.15) (2022-02-22)
-
-### [1.2.14](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.14) (2022-02-22)
-
-### [1.2.13](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.13) (2022-02-22)
-
-### 1.2.12 (2022-02-22)
-
-### 1.2.11 (2022-02-22)
-
-### 1.2.10 (2022-02-22)
-
-### 1.2.9 (2022-02-22)
-
-### 1.2.8 (2022-02-22)
-
-### 1.2.7 (2022-02-22)
-
-### 1.2.6 (2022-02-22)
-
-### 1.2.5 (2022-02-22)
-
-### 1.2.4 (2022-02-22)
-
-### 1.2.3 (2022-02-22)
-
-### [1.2.2](https://github.com/juniordev4life/test-release/compare/v1.2.1...v1.2.2) (2022-02-19)
-
-### [1.2.1](https://github.com/juniordev4life/test-release/compare/v1.2.0...v1.2.1) (2022-02-19)
+# [1.3.0](https://github.com/juniordev4life/test-release/compare/v1.2.16...v1.3.0) (2022-02-22)
 
 
 ### Bug Fixes
 
-* **docs:** fix history.md ([78da4ad](https://github.com/juniordev4life/test-release/commit/78da4ad9257eb578067d54d531f9e58239d39734))
-
-## [1.2.0](https://github.com/juniordev4life/test-release/compare/v1.1.0...v1.2.0) (2022-02-19)
+* remove needs from job step ([1185003](https://github.com/juniordev4life/test-release/commit/11850032049b0d927d57c5cbe84a03faff0862c5))
 
 
 ### Features
 
-* **autochangelog:** Add new version of aut-changelog to our project. ([f4a8d55](https://github.com/juniordev4life/test-release/commit/f4a8d55fd288c24766cfb9fa7393be687914c2ad))
-
-## 1.1.0 (2022-02-19)
+* try a new way to generate changelog ([09f9f96](https://github.com/juniordev4life/test-release/commit/09f9f96805eb1625a0879d0e3569dd6b4de33ed7))
 
 
-### Features
 
-* **new-feature:** add new file to our project ([d66ae4e](https://github.com/juniordev4life/test-release/commit/d66ae4e410799618a9c8d97114e73dfbbe95d004))
+## [1.2.16](https://github.com/juniordev4life/test-release/compare/v1.2.14...v1.2.16) (2022-02-22)
+
+
+
+## [1.2.13](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.13) (2022-02-22)
+
+
+
+## [1.2.14](https://github.com/juniordev4life/test-release/compare/v1.2.13...v1.2.14) (2022-02-22)
+
+
+
+## [1.2.13](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.13) (2022-02-22)
+
+
+
+## [1.2.12](https://github.com/juniordev4life/test-release/compare/v1.2.11...v1.2.12) (2022-02-22)
+
+
+### Bug Fixes
+
+* bad yaml ([7a1a573](https://github.com/juniordev4life/test-release/commit/7a1a573b2dc5cc5871ba3a67bb5c4dc53bc6da04))
+
+
+
