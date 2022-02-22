@@ -19,7 +19,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
-      - run: npm update-version
+      - run: npm install
+      - run: npm run update-version
   release:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     name: "Release - GitHub"
