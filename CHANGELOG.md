@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.14](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.14) (2022-02-22)
+
 ### [1.2.13](https://github.com/juniordev4life/test-release/compare/v1.2.12...v1.2.13) (2022-02-22)
 
 ### 1.2.12 (2022-02-22)
