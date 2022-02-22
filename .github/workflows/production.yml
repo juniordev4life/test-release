@@ -11,16 +11,27 @@ on:
 
 # Automatically create a new version and update Changelog.md by closing a pull request to main
 jobs:
-  update-version:
+  prepare-release:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    name: "Update Version"
+    name: "Prepare Release"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: actions/setup-node@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
           node-version: "14"
-      - run: npm install
-      - run: npm run update-version
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+      - name: Update Version
+        run: npm run update-version
   release:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     name: "Release - GitHub"
