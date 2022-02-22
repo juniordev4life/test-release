@@ -1,5 +1,5 @@
 # test-release
 
-new dev branch
+new feature 1
 
-new staging branch
+new feature 2
