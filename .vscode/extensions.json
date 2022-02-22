@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "waderyan.gitblame",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "chakrounanas.turbo-console-log",
+    "visualstudioexptteam.vscodeintell",
+    "orta.vscode-jest"
+  ]
+}
